@@ -19,8 +19,15 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install selenium webdriver-manager
+    - name: Install Java
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+    - name: Download Selenium server
+      run: |
+        wget https://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar
     - name: Run Selenium IDE script
       run: |
-        java -jar selenium-server-standalone-2.14.0.jar. -enablePassThrough false &
+        java -jar selenium-server-standalone-3.141.59.jar -enablePassThrough false &
         selenium-side-runner -c "browserName=chrome" Pre_Mila.side
 
