@@ -37,7 +37,7 @@ jobs:
     - name: Install Google-Chrome
       uses: browser-actions/setup-chrome@v1  
     - name: Run Selenium Server
-      run: java -jar selenium-server-standalone-3.141.59.jar
+      run: java -jar selenium-server-standalone-3.141.59.jar &
     - name: Run test 
       run: selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome"  test.side
         
