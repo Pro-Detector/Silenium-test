@@ -34,6 +34,8 @@ jobs:
     - run: | 
        npm install -g selenium-side-runner
        npm install -g chromedriver   
+    - name: Install Google-Chrome
+      uses: browser-actions/setup-chrome@v1  
     - name: Run Selenium IDE script
       run: |
         java -jar selenium-server-standalone-3.141.59.jar -Dwebdriver.chrome.driver=./chromedriver &
