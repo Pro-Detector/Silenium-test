@@ -1,0 +1,3252 @@
+{
+  "id": "f1d93db2-9e59-4dc6-b1e2-dae8d7169a26",
+  "version": "2.0",
+  "name": "Pre_Mila",
+  "url": "https://milacares.com/",
+  "tests": [{
+    "id": "94b80c59-eb9f-4966-b708-ea0157e3314e",
+    "name": "Pre_USA_Unit_white_AR?_Socks",
+    "commands": [{
+      "id": "f0e15b2b-5da9-4264-93c4-c5f4777ea674",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14ac66f3-ee6a-4d14-bc96-ec090ebc76f4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d812c0e-e82c-4183-9a7c-44a92b0f488c",
+      "comment": "",
+      "command": "click",
+      "target": "id=order_now",
+      "targets": [
+        ["id=order_now", "id"],
+        ["linkText=Order Now", "linkText"],
+        ["css=#order_now", "css:finder"],
+        ["xpath=//a[contains(text(),'Order Now')]", "xpath:link"],
+        ["xpath=//a[@id='order_now']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/header/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buy')]", "xpath:href"],
+        ["xpath=//header/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Order Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a99dd49-ebce-44dc-b430-5e1161cf32b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/second-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a915b4e-31db-46cd-8b18-d854c74ed468",
+      "comment": "",
+      "command": "",
+      "target": "css=.button-card__item:nth-child(2) > label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9b4af78-54eb-47b4-a596-fdd93318bfe4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/color-mix')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8ed09aa-2ed0-4ada-8389-7fae55b9423b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.white_prod_add use",
+      "targets": [
+        ["css=.white_prod_add use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f65c4680-c27a-493e-9497-d0db82d34c4b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/third-step-white')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62d785bb-c62a-4840-bf1e-42d78aca6724",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,303)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b01fee54-5bc4-4fcf-8e77-4ca6a1e544f6",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.white_prod_add use",
+      "targets": [
+        ["css=.white_prod_add use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "edda0e07-90ea-409c-96f4-5158bd379f8e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fourth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "876be7b4-4186-4446-ae55-84adf640b412",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.card-block__item:nth-child(1) .product-quantity__item-add use",
+      "targets": [
+        ["css=.card-block__item:nth-child(1) .product-quantity__item-add use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6970e9a-2af2-4cbd-8ae7-de023aa0e205",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fifth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5df8b24a-ea00-44e9-8805-3368d0c8a61a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fifth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d790220-8ac4-4708-b572-691aa894c26f",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-address",
+      "targets": [
+        ["id=email-address", "id"],
+        ["name=customer_email", "name"],
+        ["css=#email-address", "css:finder"],
+        ["xpath=//input[@id='email-address']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4319df32-1c8a-486c-a1d9-1a0417813810",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-address",
+      "targets": [
+        ["id=email-address", "id"],
+        ["name=customer_email", "name"],
+        ["css=#email-address", "css:finder"],
+        ["xpath=//input[@id='email-address']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "yuyu.test.me@gmail.com"
+    }, {
+      "id": "406d66f5-8578-48e2-814a-113082a92dfb",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone-number",
+      "targets": [
+        ["id=phone-number", "id"],
+        ["name=customer_phone_number", "name"],
+        ["css=#phone-number", "css:finder"],
+        ["xpath=//input[@id='phone-number']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "119dd429-8579-4673-bc70-191a53384e58",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone-number",
+      "targets": [
+        ["id=phone-number", "id"],
+        ["name=customer_phone_number", "name"],
+        ["css=#phone-number", "css:finder"],
+        ["xpath=//input[@id='phone-number']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "380973766981"
+    }, {
+      "id": "6d123993-364b-4b1c-a90f-920bedd684a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["name=customer_name", "name"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd103ab0-ffd6-49fd-86ac-1929fd99f647",
+      "comment": "",
+      "command": "type",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["name=customer_name", "name"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "yu gar"
+    }, {
+      "id": "48eeb43b-fd4b-49be-811c-e69fc08a59e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=shipping-address",
+      "targets": [
+        ["id=shipping-address", "id"],
+        ["name=searchShipping", "name"],
+        ["css=#shipping-address", "css:finder"],
+        ["xpath=//input[@id='shipping-address']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37d17e3d-eba3-417c-87ea-2fb5d768060a",
+      "comment": "",
+      "command": "type",
+      "target": "id=shipping-address",
+      "targets": [
+        ["id=shipping-address", "id"],
+        ["name=searchShipping", "name"],
+        ["css=#shipping-address", "css:finder"],
+        ["xpath=//input[@id='shipping-address']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "124 Conch st"
+    }, {
+      "id": "22cf9b37-07ae-4c96-bc2c-44c4b7d1b718",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=#shipping-form > .form-group:nth-child(2) > label",
+      "targets": [
+        ["css=#shipping-form > .form-group:nth-child(2) > label", "css:finder"],
+        ["xpath=//form[@id='shipping-form']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ea6d8e6-76ed-4e7f-9fc6-e8ca01837bb1",
+      "comment": "",
+      "command": "type",
+      "target": "id=shipping-city",
+      "targets": [],
+      "value": "Port St. Joe"
+    }, {
+      "id": "77b2208b-0dc6-44ae-ac5c-264224811ec3",
+      "comment": "",
+      "command": "type",
+      "target": "id=state",
+      "targets": [],
+      "value": "FL"
+    }, {
+      "id": "800b5e0d-5ba8-473c-9ba7-7dec90c79213",
+      "comment": "",
+      "command": "type",
+      "target": "id=zipcode",
+      "targets": [],
+      "value": "32456"
+    }, {
+      "id": "089cd7bf-c14b-4525-9bae-9ca7c5c59912",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fifth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43059388-3a13-4f41-97c4-1362a723ec95",
+      "comment": "",
+      "command": "type",
+      "target": "id=cname",
+      "targets": [
+        ["id=cname", "id"],
+        ["name=cardname", "name"],
+        ["css=#cname", "css:finder"],
+        ["xpath=//input[@id='cname']", "xpath:attributes"],
+        ["xpath=//form[@id='payment-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "yu gar"
+    }, {
+      "id": "18411e7d-313c-45cc-b89e-553c6f407143",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=8",
+      "targets": [
+        ["index=8"]
+      ],
+      "value": ""
+    }, {
+      "id": "95da1ccd-187d-47d3-92d7-59e719e20bb7",
+      "comment": "",
+      "command": "click",
+      "target": "name=cardnumber",
+      "targets": [
+        ["name=cardnumber", "name"],
+        ["css=.CardNumberField-input-wrapper .InputElement", "css:finder"],
+        ["xpath=//input[@name='cardnumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span/span[2]/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6068c583-566c-4e5a-9e19-9ce3a6787040",
+      "comment": "",
+      "command": "type",
+      "target": "name=cardnumber",
+      "targets": [
+        ["name=cardnumber", "name"],
+        ["css=.InputContainer > .is-complete", "css:finder"],
+        ["xpath=//input[@name='cardnumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span/span[2]/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "4242 4242 4242 4242"
+    }, {
+      "id": "964ecd3b-6d53-4c1a-95e6-6c55c037af72",
+      "comment": "",
+      "command": "type",
+      "target": "name=exp-date",
+      "targets": [
+        ["name=exp-date", "name"],
+        ["css=span > .InputContainer > .is-complete", "css:finder"],
+        ["xpath=//input[@name='exp-date']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span[2]/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": "04 / 24"
+    }, {
+      "id": "0a1e4b54-64b9-4167-8af6-e57903649715",
+      "comment": "",
+      "command": "type",
+      "target": "name=cvc",
+      "targets": [
+        ["name=cvc", "name"],
+        ["css=.CardField-cvc .InputElement", "css:finder"],
+        ["xpath=//input[@name='cvc']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span[2]/span[2]/span/span/input", "xpath:idRelative"],
+        ["xpath=//span[2]/span/span/input", "xpath:position"]
+      ],
+      "value": "242"
+    }, {
+      "id": "e0728244-64dc-4caf-badd-f2706b4b9b13",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "bac107d4-4104-42e9-bfad-4b4389c29469",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Confirm order",
+      "targets": [
+        ["linkText=Confirm order", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Confirm order')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/seventh-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Confirm order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a8933c5-ac0c-4c9a-944f-ca96a3ea498b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Confirm order",
+      "targets": [
+        ["linkText=Confirm order", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Confirm order')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/seventh-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Confirm order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8e8d5ff6-a1dc-4b8c-a2f9-8778a2458445",
+    "name": "Pre_USA_Unit_white_Socks",
+    "commands": [{
+      "id": "e7e5b378-7317-4863-b88e-5ad99b25730a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12bc39e9-307f-4e3b-aba6-e3087b48aefb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fcfaaf9c-80a3-4271-92e3-bdd46bf23332",
+      "comment": "",
+      "command": "click",
+      "target": "id=order_now",
+      "targets": [
+        ["id=order_now", "id"],
+        ["linkText=Order Now", "linkText"],
+        ["css=#order_now", "css:finder"],
+        ["xpath=//a[contains(text(),'Order Now')]", "xpath:link"],
+        ["xpath=//a[@id='order_now']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/header/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buy')]", "xpath:href"],
+        ["xpath=//header/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Order Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "707555cd-24ca-4e4e-ac30-b46ffc914dec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/second-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1c93c3c-672c-4aed-b81c-31ef2a9c6a20",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-card__item:nth-child(2) > label",
+      "targets": [
+        ["css=.button-card__item:nth-child(2) > label", "css:finder"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'No, thanks. I’ll order filters manually.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "605d5b7f-afb0-49ff-ad0f-06068d12105d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/color-mix')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cb0b48c-b502-41ed-b973-d0eda9b6b819",
+      "comment": "",
+      "command": "click",
+      "target": "css=.white_prod_add use",
+      "targets": [
+        ["css=.white_prod_add use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "81d5d568-ad22-459f-ab0d-f1a806023c02",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/third-step-white')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6e82fc2-4087-4a96-a314-b138c312d2d5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,303)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce3e1bfe-d773-447f-8ca1-6c60c47da1ef",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.white_prod_add use",
+      "targets": [
+        ["css=.white_prod_add use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a5b96fb-8590-4bed-a9fb-131888aede8c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fourth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0aafc718-06ad-4ff1-8711-1e5b5f0c9810",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.card-block__item:nth-child(1) .product-quantity__item-add use",
+      "targets": [
+        ["css=.card-block__item:nth-child(1) .product-quantity__item-add use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8225836-b3aa-4947-90ba-cf138b1a1502",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fifth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12d0fe7f-f2df-493f-a95b-473509c3165a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fifth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "289903c4-c99b-430c-8e28-0c6fc73afd8e",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-address",
+      "targets": [
+        ["id=email-address", "id"],
+        ["name=customer_email", "name"],
+        ["css=#email-address", "css:finder"],
+        ["xpath=//input[@id='email-address']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce64bfd5-b6db-4a90-adfe-29b1afe05a92",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-address",
+      "targets": [
+        ["id=email-address", "id"],
+        ["name=customer_email", "name"],
+        ["css=#email-address", "css:finder"],
+        ["xpath=//input[@id='email-address']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "yuyu.test.me@gmail.com"
+    }, {
+      "id": "03131761-187f-4718-9787-753c8ffe2afc",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone-number",
+      "targets": [
+        ["id=phone-number", "id"],
+        ["name=customer_phone_number", "name"],
+        ["css=#phone-number", "css:finder"],
+        ["xpath=//input[@id='phone-number']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "417c6108-ceee-4c61-896c-80a4866f2b3a",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone-number",
+      "targets": [
+        ["id=phone-number", "id"],
+        ["name=customer_phone_number", "name"],
+        ["css=#phone-number", "css:finder"],
+        ["xpath=//input[@id='phone-number']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "380973766981"
+    }, {
+      "id": "ab6b86a2-28f7-48aa-ba63-e6807e36629d",
+      "comment": "",
+      "command": "click",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["name=customer_name", "name"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "435cc4b1-deea-49f8-954c-caf4e0fd139b",
+      "comment": "",
+      "command": "type",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["name=customer_name", "name"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "yu gar"
+    }, {
+      "id": "c00fd83a-4994-410e-b34e-619e2fe15900",
+      "comment": "",
+      "command": "click",
+      "target": "id=shipping-address",
+      "targets": [
+        ["id=shipping-address", "id"],
+        ["name=searchShipping", "name"],
+        ["css=#shipping-address", "css:finder"],
+        ["xpath=//input[@id='shipping-address']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "647a9a97-23fb-4deb-8b30-89d80b9545ca",
+      "comment": "",
+      "command": "type",
+      "target": "id=shipping-address",
+      "targets": [
+        ["id=shipping-address", "id"],
+        ["name=searchShipping", "name"],
+        ["css=#shipping-address", "css:finder"],
+        ["xpath=//input[@id='shipping-address']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "124 Conch st"
+    }, {
+      "id": "15e9d0b6-75ff-4954-9a5b-0b24c76cefef",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=#shipping-form > .form-group:nth-child(2) > label",
+      "targets": [
+        ["css=#shipping-form > .form-group:nth-child(2) > label", "css:finder"],
+        ["xpath=//form[@id='shipping-form']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "813ac7fb-47dd-40a7-be0f-b24b56c61dc0",
+      "comment": "",
+      "command": "type",
+      "target": "id=shipping-city",
+      "targets": [],
+      "value": "Port St. Joe"
+    }, {
+      "id": "794cd606-ddac-4f1d-ac38-0a56d22ba85e",
+      "comment": "",
+      "command": "type",
+      "target": "id=state",
+      "targets": [],
+      "value": "FL"
+    }, {
+      "id": "7115c805-c99e-47c1-bbfe-4df8e15c6b4f",
+      "comment": "",
+      "command": "type",
+      "target": "id=zipcode",
+      "targets": [],
+      "value": "32456"
+    }, {
+      "id": "ac8985e1-db7c-4567-935d-61fc53d70ca9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fifth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1252965-e4ad-4450-be9e-aafdb993560b",
+      "comment": "",
+      "command": "click",
+      "target": "id=cname",
+      "targets": [
+        ["id=cname", "id"],
+        ["name=cardname", "name"],
+        ["css=#cname", "css:finder"],
+        ["xpath=//input[@id='cname']", "xpath:attributes"],
+        ["xpath=//form[@id='payment-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9be861a0-0643-447f-8b00-99d9bb76ddd5",
+      "comment": "",
+      "command": "type",
+      "target": "id=cname",
+      "targets": [
+        ["id=cname", "id"],
+        ["name=cardname", "name"],
+        ["css=#cname", "css:finder"],
+        ["xpath=//input[@id='cname']", "xpath:attributes"],
+        ["xpath=//form[@id='payment-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "yu gar"
+    }, {
+      "id": "15304474-75a4-4dd6-8aa9-34fe99b4e302",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=8",
+      "targets": [
+        ["index=8"]
+      ],
+      "value": ""
+    }, {
+      "id": "dee0e31e-c5f8-469a-8129-ece218be82f0",
+      "comment": "",
+      "command": "click",
+      "target": "name=cardnumber",
+      "targets": [
+        ["name=cardnumber", "name"],
+        ["css=.CardNumberField-input-wrapper .InputElement", "css:finder"],
+        ["xpath=//input[@name='cardnumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span/span[2]/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bd16c05-8d39-4b22-9dfb-7a54e64be011",
+      "comment": "",
+      "command": "type",
+      "target": "name=cardnumber",
+      "targets": [
+        ["name=cardnumber", "name"],
+        ["css=.InputContainer > .is-complete", "css:finder"],
+        ["xpath=//input[@name='cardnumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span/span[2]/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "4242 4242 4242 4242"
+    }, {
+      "id": "b04eb81e-41b7-44c1-8564-0c40e5d29526",
+      "comment": "",
+      "command": "type",
+      "target": "name=exp-date",
+      "targets": [
+        ["name=exp-date", "name"],
+        ["css=span > .InputContainer > .is-complete", "css:finder"],
+        ["xpath=//input[@name='exp-date']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span[2]/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": "04 / 24"
+    }, {
+      "id": "2c3e8c23-4eca-47d4-85a6-563e280833d2",
+      "comment": "",
+      "command": "type",
+      "target": "name=cvc",
+      "targets": [
+        ["name=cvc", "name"],
+        ["css=.CardField-cvc .InputElement", "css:finder"],
+        ["xpath=//input[@name='cvc']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span[2]/span[2]/span/span/input", "xpath:idRelative"],
+        ["xpath=//span[2]/span/span/input", "xpath:position"]
+      ],
+      "value": "242"
+    }, {
+      "id": "59bbc5e3-15fe-4a28-b01f-017fbe150407",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e55ddf5-4ea1-4201-b9ea-8b9d4317276c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Confirm order",
+      "targets": [
+        ["linkText=Confirm order", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Confirm order')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/seventh-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Confirm order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61db3279-7b69-40b8-b857-c0a14f31adab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Confirm order",
+      "targets": [
+        ["linkText=Confirm order", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Confirm order')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/seventh-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Confirm order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c15bce29-7f08-40c5-a707-2ac031c7a44e",
+    "name": "Pre_USA_Unit_black_Socks",
+    "commands": [{
+      "id": "596568b8-b17e-47ad-9968-53ebdc1b5171",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "461343c8-3852-4cff-afd5-208b408359bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14641220-087e-4eb8-b917-215433ca5926",
+      "comment": "",
+      "command": "click",
+      "target": "id=order_now",
+      "targets": [
+        ["id=order_now", "id"],
+        ["linkText=Order Now", "linkText"],
+        ["css=#order_now", "css:finder"],
+        ["xpath=//a[contains(text(),'Order Now')]", "xpath:link"],
+        ["xpath=//a[@id='order_now']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/header/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buy')]", "xpath:href"],
+        ["xpath=//header/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Order Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed1fd47f-c931-4f4e-aa65-624b04b1e83a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/second-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6484b155-a24a-49dd-af26-08a7321f7c1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-card__item:nth-child(2) > label",
+      "targets": [
+        ["css=.button-card__item:nth-child(2) > label", "css:finder"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'No, thanks. I’ll order filters manually.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a93a194f-0c13-4982-9980-8244c41e8df8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/color-mix')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "105f76b6-5614-4017-b85b-4729c17a3506",
+      "comment": "",
+      "command": "click",
+      "target": "css=.black_prod_add use",
+      "targets": [
+        ["css=.white_prod_add use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "59e7853d-f4c1-4b7a-b67d-124fc17c8519",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/third-step-white')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d517f93-16c2-4742-852a-8e11c8098656",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,303)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2678a642-8e39-4db9-8048-1cf025b76aa9",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.white_prod_add use",
+      "targets": [
+        ["css=.white_prod_add use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cd43b60-da04-4743-ab4e-d766e58ad5a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fourth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b54ee77-fe77-4157-84d8-76a1127cec47",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.card-block__item:nth-child(1) .product-quantity__item-add use",
+      "targets": [
+        ["css=.card-block__item:nth-child(1) .product-quantity__item-add use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "873a0af0-986f-4eea-a3a9-957157d209b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fifth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47d84c1a-0cce-4ec6-ae32-a7bfd394ce4b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fifth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "270d7f53-fd9d-4e9a-b496-8f468aba0b75",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-address",
+      "targets": [
+        ["id=email-address", "id"],
+        ["name=customer_email", "name"],
+        ["css=#email-address", "css:finder"],
+        ["xpath=//input[@id='email-address']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7ab40a8-2d1a-4994-834e-156d242e478b",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-address",
+      "targets": [
+        ["id=email-address", "id"],
+        ["name=customer_email", "name"],
+        ["css=#email-address", "css:finder"],
+        ["xpath=//input[@id='email-address']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "yuyu.test.me@gmail.com"
+    }, {
+      "id": "aa1b4d38-9175-42e8-872d-b8652e919f37",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone-number",
+      "targets": [
+        ["id=phone-number", "id"],
+        ["name=customer_phone_number", "name"],
+        ["css=#phone-number", "css:finder"],
+        ["xpath=//input[@id='phone-number']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29eedd5f-7268-47a7-80a6-9f4b09734ad9",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone-number",
+      "targets": [
+        ["id=phone-number", "id"],
+        ["name=customer_phone_number", "name"],
+        ["css=#phone-number", "css:finder"],
+        ["xpath=//input[@id='phone-number']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "380973766981"
+    }, {
+      "id": "dc6937cb-ce3a-489d-841e-a9cc2502dcb2",
+      "comment": "",
+      "command": "click",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["name=customer_name", "name"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a159841e-8e44-4309-b7b4-e49f6b6e66db",
+      "comment": "",
+      "command": "type",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["name=customer_name", "name"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "yu gar"
+    }, {
+      "id": "2fe5d11d-fa86-4bc0-9b15-a7ce7fb2861c",
+      "comment": "",
+      "command": "click",
+      "target": "id=shipping-address",
+      "targets": [
+        ["id=shipping-address", "id"],
+        ["name=searchShipping", "name"],
+        ["css=#shipping-address", "css:finder"],
+        ["xpath=//input[@id='shipping-address']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8af4a79c-1693-4ceb-a6cb-10ff38ea11ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=shipping-address",
+      "targets": [
+        ["id=shipping-address", "id"],
+        ["name=searchShipping", "name"],
+        ["css=#shipping-address", "css:finder"],
+        ["xpath=//input[@id='shipping-address']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "124 Conch st"
+    }, {
+      "id": "739b5989-4b18-4abc-b021-fa547e17d441",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=#shipping-form > .form-group:nth-child(2) > label",
+      "targets": [
+        ["css=#shipping-form > .form-group:nth-child(2) > label", "css:finder"],
+        ["xpath=//form[@id='shipping-form']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38351c1d-1854-4d6f-b193-10a5b0d18848",
+      "comment": "",
+      "command": "type",
+      "target": "id=shipping-city",
+      "targets": [],
+      "value": "Port St. Joe"
+    }, {
+      "id": "2f39ea9a-b8d8-4f15-9602-86cb1e7f7bf1",
+      "comment": "",
+      "command": "type",
+      "target": "id=state",
+      "targets": [],
+      "value": "FL"
+    }, {
+      "id": "6e21b6cd-ae3d-446e-a0a1-34408558611e",
+      "comment": "",
+      "command": "type",
+      "target": "id=zipcode",
+      "targets": [],
+      "value": "32456"
+    }, {
+      "id": "9eb1d54b-822c-40b8-86db-b49ff646f85d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fifth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bbded4c-b0f4-402d-a127-0252f941ffb9",
+      "comment": "",
+      "command": "click",
+      "target": "id=cname",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc0caa16-6e31-4cc0-9de3-e36f0c93b8ca",
+      "comment": "",
+      "command": "type",
+      "target": "id=cname",
+      "targets": [
+        ["id=cname", "id"],
+        ["name=cardname", "name"],
+        ["css=#cname", "css:finder"],
+        ["xpath=//input[@id='cname']", "xpath:attributes"],
+        ["xpath=//form[@id='payment-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "yu gar"
+    }, {
+      "id": "80b26cf3-8b1d-416f-9efc-36349048161f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=8",
+      "targets": [
+        ["index=8"]
+      ],
+      "value": ""
+    }, {
+      "id": "e18116bd-80f4-4556-9632-5aaa2378b001",
+      "comment": "",
+      "command": "click",
+      "target": "name=cardnumber",
+      "targets": [
+        ["name=cardnumber", "name"],
+        ["css=.CardNumberField-input-wrapper .InputElement", "css:finder"],
+        ["xpath=//input[@name='cardnumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span/span[2]/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8a12881-8ddd-4927-a657-63d2a76c14a6",
+      "comment": "",
+      "command": "type",
+      "target": "name=cardnumber",
+      "targets": [
+        ["name=cardnumber", "name"],
+        ["css=.InputContainer > .is-complete", "css:finder"],
+        ["xpath=//input[@name='cardnumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span/span[2]/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "4242 4242 4242 4242"
+    }, {
+      "id": "e3ab1d3d-efae-464a-9d66-78fb6006e323",
+      "comment": "",
+      "command": "type",
+      "target": "name=exp-date",
+      "targets": [
+        ["name=exp-date", "name"],
+        ["css=span > .InputContainer > .is-complete", "css:finder"],
+        ["xpath=//input[@name='exp-date']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span[2]/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": "04 / 24"
+    }, {
+      "id": "1912b437-da05-4366-8bf9-f02dabe6fe26",
+      "comment": "",
+      "command": "type",
+      "target": "name=cvc",
+      "targets": [
+        ["name=cvc", "name"],
+        ["css=.CardField-cvc .InputElement", "css:finder"],
+        ["xpath=//input[@name='cvc']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span[2]/span[2]/span/span/input", "xpath:idRelative"],
+        ["xpath=//span[2]/span/span/input", "xpath:position"]
+      ],
+      "value": "242"
+    }, {
+      "id": "0842cd6c-5e6e-4fa1-85bc-cc8f66475888",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e4e23f6-3566-435e-8fa2-d9d1e5cfe6da",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Confirm order",
+      "targets": [
+        ["linkText=Confirm order", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Confirm order')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/seventh-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Confirm order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f67d64c7-f0c2-4512-ae8f-14a4317666e3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Confirm order",
+      "targets": [
+        ["linkText=Confirm order", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Confirm order')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/seventh-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Confirm order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fbcadcf0-b599-4b54-bde9-9d767b5e4b8e",
+    "name": "Pre_USA_Unit_black_AR?_Socks",
+    "commands": [{
+      "id": "e2969615-305f-45cb-b0dc-8a5d50e91716",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc592887-865b-4215-8992-4d895a841115",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e56c848-e9ac-4f6e-92fa-f40a8a792163",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Order Now')]",
+      "targets": [
+        ["id=order_now", "id"],
+        ["linkText=Order Now", "linkText"],
+        ["css=#order_now", "css:finder"],
+        ["xpath=//a[contains(text(),'Order Now')]", "xpath:link"],
+        ["xpath=//a[@id='order_now']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/header/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buy')]", "xpath:href"],
+        ["xpath=//header/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Order Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cf284a1-9c33-4abf-815a-668a54e3a96f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/second-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ffda9e9-3cc5-44f0-8afd-76aff8973a62",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/color-mix')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9006c90c-315c-47a7-94ed-0eed20251fcd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.black_prod_add use",
+      "targets": [
+        ["css=.white_prod_add use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d66eb7e-1703-4e76-9bbd-18cb0404e074",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/third-step-white')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "460aaa02-6a6b-48b4-975a-65759a086da7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,303)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4891430c-bda9-4a61-a63c-3b5593d18dc7",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.card-block__item--big-sneeze .product-quantity__item-add > .icon",
+      "targets": [
+        ["css=.card-block__item--big-sneeze .product-quantity__item-add > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b95a0920-3a42-430b-b357-e8eb9f9d163d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fourth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab4e465b-d393-47db-a105-786c3380ab6a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.card-block__item:nth-child(1) .product-quantity__item-add use",
+      "targets": [
+        ["css=.card-block__item:nth-child(1) .product-quantity__item-add use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbc393d6-e51a-4ee0-a5e8-001ac269a618",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fifth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd7a839d-072e-476a-9467-ecdfd96c8add",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fifth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19ab9115-82d5-4fb6-bbf6-eb0157a0bf8d",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-address",
+      "targets": [
+        ["id=email-address", "id"],
+        ["name=customer_email", "name"],
+        ["css=#email-address", "css:finder"],
+        ["xpath=//input[@id='email-address']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "847ecb8e-fc29-4674-b4dc-d8613e7728b2",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-address",
+      "targets": [
+        ["id=email-address", "id"],
+        ["name=customer_email", "name"],
+        ["css=#email-address", "css:finder"],
+        ["xpath=//input[@id='email-address']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "yuyu.test.me@gmail.com"
+    }, {
+      "id": "2b0bb613-dec3-45a9-a0a5-6d0012e9871c",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone-number",
+      "targets": [
+        ["id=phone-number", "id"],
+        ["name=customer_phone_number", "name"],
+        ["css=#phone-number", "css:finder"],
+        ["xpath=//input[@id='phone-number']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f7217fb-dc79-4a20-8ee3-09f0e0f87b36",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone-number",
+      "targets": [
+        ["id=phone-number", "id"],
+        ["name=customer_phone_number", "name"],
+        ["css=#phone-number", "css:finder"],
+        ["xpath=//input[@id='phone-number']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "380973766981"
+    }, {
+      "id": "e53ec013-b547-4b5f-b2ef-768d493c63e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["name=customer_name", "name"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "131b9957-d22f-4450-8f0e-58c1eae74479",
+      "comment": "",
+      "command": "type",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["name=customer_name", "name"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "yu gar"
+    }, {
+      "id": "cedc3acb-6e75-4dcd-b594-28c2f50cb996",
+      "comment": "",
+      "command": "click",
+      "target": "id=shipping-address",
+      "targets": [
+        ["id=shipping-address", "id"],
+        ["name=searchShipping", "name"],
+        ["css=#shipping-address", "css:finder"],
+        ["xpath=//input[@id='shipping-address']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "189eb9f7-77f1-4e35-99f9-65aacadbc0d4",
+      "comment": "",
+      "command": "type",
+      "target": "id=shipping-address",
+      "targets": [
+        ["id=shipping-address", "id"],
+        ["name=searchShipping", "name"],
+        ["css=#shipping-address", "css:finder"],
+        ["xpath=//input[@id='shipping-address']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "124 Conch st"
+    }, {
+      "id": "c2d6dadf-f4f9-4704-ba3c-a0697eb6a63d",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=#shipping-form > .form-group:nth-child(2) > label",
+      "targets": [
+        ["css=#shipping-form > .form-group:nth-child(2) > label", "css:finder"],
+        ["xpath=//form[@id='shipping-form']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a58443c4-fedc-4ca0-a069-a8ebdaa2f682",
+      "comment": "",
+      "command": "type",
+      "target": "id=shipping-city",
+      "targets": [],
+      "value": "Port St. Joe"
+    }, {
+      "id": "74811848-f874-44ac-8a7e-398910181941",
+      "comment": "",
+      "command": "type",
+      "target": "id=state",
+      "targets": [],
+      "value": "FL"
+    }, {
+      "id": "cea53fa2-8153-45ad-98e5-bc70fafed360",
+      "comment": "",
+      "command": "type",
+      "target": "id=zipcode",
+      "targets": [],
+      "value": "32456"
+    }, {
+      "id": "4b5bbd52-a480-440b-b929-2d7c186b1a82",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fifth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ed2ce1a-b46c-4d7f-adac-b928d3149a1c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='cname']",
+      "targets": [
+        ["id=cname", "id"],
+        ["name=cardname", "name"],
+        ["css=#cname", "css:finder"],
+        ["xpath=//input[@id='cname']", "xpath:attributes"],
+        ["xpath=//form[@id='payment-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71c3dc44-a007-4d9e-a93e-9d249e9a74d3",
+      "comment": "",
+      "command": "type",
+      "target": "id=cname",
+      "targets": [
+        ["id=cname", "id"],
+        ["name=cardname", "name"],
+        ["css=#cname", "css:finder"],
+        ["xpath=//input[@id='cname']", "xpath:attributes"],
+        ["xpath=//form[@id='payment-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "yu gar"
+    }, {
+      "id": "f7a1c915-0448-410d-854c-76a646f5a487",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=8",
+      "targets": [
+        ["index=8"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad77b060-9f5c-47f4-8de8-a872e7e27170",
+      "comment": "",
+      "command": "click",
+      "target": "name=cardnumber",
+      "targets": [
+        ["name=cardnumber", "name"],
+        ["css=.CardNumberField-input-wrapper .InputElement", "css:finder"],
+        ["xpath=//input[@name='cardnumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span/span[2]/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6dbaa65-fad4-465d-857d-e43c5a4f737c",
+      "comment": "",
+      "command": "type",
+      "target": "name=cardnumber",
+      "targets": [
+        ["name=cardnumber", "name"],
+        ["css=.InputContainer > .is-complete", "css:finder"],
+        ["xpath=//input[@name='cardnumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span/span[2]/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "4242 4242 4242 4242"
+    }, {
+      "id": "8f22269b-e4c9-4a40-aa92-892676269884",
+      "comment": "",
+      "command": "type",
+      "target": "name=exp-date",
+      "targets": [
+        ["name=exp-date", "name"],
+        ["css=span > .InputContainer > .is-complete", "css:finder"],
+        ["xpath=//input[@name='exp-date']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span[2]/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": "04 / 24"
+    }, {
+      "id": "8e340308-2682-48ca-8915-bd48939b974c",
+      "comment": "",
+      "command": "type",
+      "target": "name=cvc",
+      "targets": [
+        ["name=cvc", "name"],
+        ["css=.CardField-cvc .InputElement", "css:finder"],
+        ["xpath=//input[@name='cvc']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span[2]/span[2]/span/span/input", "xpath:idRelative"],
+        ["xpath=//span[2]/span/span/input", "xpath:position"]
+      ],
+      "value": "242"
+    }, {
+      "id": "197cd612-bded-42f8-b2d6-45838c6f36a5",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "479abef6-841d-4317-b847-6fb7e5718912",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Confirm order",
+      "targets": [
+        ["linkText=Confirm order", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Confirm order')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/seventh-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Confirm order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd3b83f5-1afb-4f08-aa47-9935112e06f8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Confirm order",
+      "targets": [
+        ["linkText=Confirm order", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Confirm order')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/seventh-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Confirm order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "97d37327-6fa3-452a-b79b-17f6b50d62da",
+    "name": "Pre_USA_Filter_Socks",
+    "commands": [{
+      "id": "771b290b-3db9-4626-9d64-734c0f812cb9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72c9bdda-b2e6-4971-a466-7cdf1482204f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9030e3c7-17b6-4feb-b2a4-3b740420be21",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,16376)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c042f34-d52c-4ec0-a168-a4809c0bf5c0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Buy Filters",
+      "targets": [
+        ["linkText=Buy Filters", "linkText"],
+        ["css=.footer__nav-list:nth-child(1) > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Buy Filters')]", "xpath:link"],
+        ["xpath=//div[@id='root']/footer/div/div/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buy/filters')]", "xpath:href"],
+        ["xpath=//div/div/nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Buy Filters')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "490bb853-ed11-487d-b5ff-f10d4fad73be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-block__item:nth-child(2) .product-quantity__item-add use",
+      "targets": [
+        ["css=.card-block__item:nth-child(2) .product-quantity__item-add use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d40946a1-6ac2-49b0-93a5-4b606d4199a0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.card-block__item--rookie-parent .product-quantity__item-add",
+      "targets": [
+        ["css=.card-block__item--rookie-parent .product-quantity__item-add", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[2]/div[4]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f668ae8-4511-41cd-b4c2-7c49675f336f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.card-block__item--rookie-parent .product-quantity__item-add",
+      "targets": [
+        ["css=.card-block__item--rookie-parent .product-quantity__item-add", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[2]/div[4]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "146b7de7-02e4-4a63-9595-5f4b8858b89b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fourth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "369f1d76-f42e-4755-b915-15c92e1a1fea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fifth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f98ec0a5-0e44-42a1-885f-9ad9b1291557",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-address",
+      "targets": [
+        ["id=email-address", "id"],
+        ["name=customer_email", "name"],
+        ["css=#email-address", "css:finder"],
+        ["xpath=//input[@id='email-address']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3256eff8-38c6-4ee2-9033-a74fa17d673a",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-address",
+      "targets": [
+        ["id=email-address", "id"],
+        ["name=customer_email", "name"],
+        ["css=#email-address", "css:finder"],
+        ["xpath=//input[@id='email-address']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "yuyu.test.me@gmail.com"
+    }, {
+      "id": "94dc4425-cd4b-4842-9a35-48661e3b91b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone-number",
+      "targets": [
+        ["id=phone-number", "id"],
+        ["name=customer_phone_number", "name"],
+        ["css=#phone-number", "css:finder"],
+        ["xpath=//input[@id='phone-number']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8fccc3e-d995-4bf0-a9ee-bff969855433",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone-number",
+      "targets": [
+        ["id=phone-number", "id"],
+        ["name=customer_phone_number", "name"],
+        ["css=#phone-number", "css:finder"],
+        ["xpath=//input[@id='phone-number']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "380973766981"
+    }, {
+      "id": "d7f6a6c3-0b11-4f77-8f56-8f6da8ba5a0e",
+      "comment": "",
+      "command": "click",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["name=customer_name", "name"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17c43882-2e8c-42ab-94e7-56682cd274fe",
+      "comment": "",
+      "command": "type",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["name=customer_name", "name"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "yu gar"
+    }, {
+      "id": "55887e33-722e-40f1-b78a-57cd355fd07a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#shipping-form > .form-group:nth-child(2) > label",
+      "targets": [
+        ["css=#shipping-form > .form-group:nth-child(2) > label", "css:finder"],
+        ["xpath=//form[@id='shipping-form']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "631bd0dc-1a53-44f3-858d-dae609f99c3f",
+      "comment": "",
+      "command": "type",
+      "target": "id=shipping-address",
+      "targets": [
+        ["id=shipping-address", "id"],
+        ["name=searchShipping", "name"],
+        ["css=#shipping-address", "css:finder"],
+        ["xpath=//input[@id='shipping-address']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "1585 Charleston Rd"
+    }, {
+      "id": "a2049301-4231-4c71-9e95-462cfbd380a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=shipping-city",
+      "targets": [
+        ["id=shipping-city", "id"],
+        ["name=shipping_city", "name"],
+        ["css=#shipping-city", "css:finder"],
+        ["xpath=//input[@id='shipping-city']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89607d86-5f90-4558-8248-ec7a0f1128c2",
+      "comment": "",
+      "command": "type",
+      "target": "id=shipping-city",
+      "targets": [],
+      "value": "Mountain View"
+    }, {
+      "id": "934daef1-9867-4b1a-8eed-6831eea0f379",
+      "comment": "",
+      "command": "click",
+      "target": "id=state",
+      "targets": [
+        ["id=state", "id"],
+        ["name=shipping_state", "name"],
+        ["css=#state", "css:finder"],
+        ["xpath=//input[@id='state']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9baff4cb-43c0-4a74-8cab-642507ab1147",
+      "comment": "",
+      "command": "type",
+      "target": "id=state",
+      "targets": [
+        ["id=state", "id"],
+        ["name=shipping_state", "name"],
+        ["css=#state", "css:finder"],
+        ["xpath=//input[@id='state']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "CA"
+    }, {
+      "id": "bbc56259-1d53-4842-b3ea-d5b87242c8c7",
+      "comment": "",
+      "command": "click",
+      "target": "id=zipcode",
+      "targets": [
+        ["id=zipcode", "id"],
+        ["name=shipping_zipcode", "name"],
+        ["css=#zipcode", "css:finder"],
+        ["xpath=//input[@id='zipcode']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a295bb5f-adcb-4551-8775-b3988c12489b",
+      "comment": "",
+      "command": "type",
+      "target": "id=zipcode",
+      "targets": [
+        ["id=zipcode", "id"],
+        ["name=shipping_zipcode", "name"],
+        ["css=#zipcode", "css:finder"],
+        ["xpath=//input[@id='zipcode']", "xpath:attributes"],
+        ["xpath=//form[@id='shipping-form']/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": "94043"
+    }, {
+      "id": "f78095af-5668-4cc8-8f0f-4eeb318f604d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fifth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d3effc1-532e-4d8a-88a8-24886a266f04",
+      "comment": "",
+      "command": "click",
+      "target": "id=cname",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fifth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec35d3b3-f227-47cf-8cb9-b36e9edb4cca",
+      "comment": "",
+      "command": "type",
+      "target": "id=cname",
+      "targets": [
+        ["id=cname", "id"],
+        ["name=cardname", "name"],
+        ["css=#cname", "css:finder"],
+        ["xpath=//input[@id='cname']", "xpath:attributes"],
+        ["xpath=//form[@id='payment-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "yu gar"
+    }, {
+      "id": "0e11744c-ba00-4305-af8f-2b0b128fdc71",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=8",
+      "targets": [
+        ["index=8"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ad378dc-d95e-4b2d-bbc7-bc89f8799600",
+      "comment": "",
+      "command": "click",
+      "target": "name=cardnumber",
+      "targets": [
+        ["name=cardnumber", "name"],
+        ["css=.CardNumberField-input-wrapper .InputElement", "css:finder"],
+        ["xpath=//input[@name='cardnumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span/span[2]/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "834c557f-d3ca-4a63-ab88-bf4d87fcc39a",
+      "comment": "",
+      "command": "type",
+      "target": "name=cardnumber",
+      "targets": [
+        ["name=cardnumber", "name"],
+        ["css=.InputContainer > .is-complete", "css:finder"],
+        ["xpath=//input[@name='cardnumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span/span[2]/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "4242 4242 4242 4242"
+    }, {
+      "id": "89e6ecf3-ed5d-4cec-ba9e-4a45858e848e",
+      "comment": "",
+      "command": "type",
+      "target": "name=exp-date",
+      "targets": [
+        ["name=exp-date", "name"],
+        ["css=span > .InputContainer > .is-complete", "css:finder"],
+        ["xpath=//input[@name='exp-date']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span[2]/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": "04 / 24"
+    }, {
+      "id": "0bfa534e-0579-49de-b06c-8aa6dd3fd0ff",
+      "comment": "",
+      "command": "type",
+      "target": "name=cvc",
+      "targets": [
+        ["name=cvc", "name"],
+        ["css=.CardField-cvc .InputElement", "css:finder"],
+        ["xpath=//input[@name='cvc']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/form/div/div[2]/span[2]/span[2]/span/span/input", "xpath:idRelative"],
+        ["xpath=//span[2]/span/span/input", "xpath:position"]
+      ],
+      "value": "242"
+    }, {
+      "id": "3615df03-5aca-48fb-90f1-fa46510a7763",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "01b99f30-2cdb-4c0a-a7bb-9e6f0fa874dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Confirm order",
+      "targets": [
+        ["linkText=Confirm order", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Confirm order')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/seventh-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Confirm order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afcba80f-c362-456b-9542-17dde22c68fa",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,84)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6320971a-07fa-476a-a031-04ebdb39fdd6",
+    "name": "1st_Step_1+Milas_helper_text",
+    "commands": [{
+      "id": "e88234c2-5284-413c-abc1-e8f9f271b248",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd505c55-4292-4c2b-b4f5-fb6cb418a33c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x819",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4571206-38e1-4344-9cee-8d9156d82782",
+      "comment": "",
+      "command": "click",
+      "target": "id=order_now",
+      "targets": [
+        ["id=order_now", "id"],
+        ["linkText=Order Now", "linkText"],
+        ["css=#order_now", "css:finder"],
+        ["xpath=//a[contains(text(),'Order Now')]", "xpath:link"],
+        ["xpath=//a[@id='order_now']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/header/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buy')]", "xpath:href"],
+        ["xpath=//header/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Order Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9022e5fa-b3ec-46b9-a995-b5561f907c5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-plus > use",
+      "targets": [
+        ["css=.icon-plus > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a59f0bb0-995a-4c70-ad7b-5c821e100d5a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product-quantity__message",
+      "targets": [],
+      "value": "Aw, twins."
+    }, {
+      "id": "95c280e4-7b96-4522-915c-636e57229812",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/second-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b8f7e675-0883-4979-8418-326afff68765",
+    "name": "2nd_Step_helper_text",
+    "commands": [{
+      "id": "fe917a60-ae92-40f8-9a59-0e143ae341ac",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b5d559f-ff55-4c8b-96b8-36136a936669",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1648x819",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb9e5454-5224-428a-8c5c-3bb87e18dcb5",
+      "comment": "",
+      "command": "click",
+      "target": "id=order_now",
+      "targets": [
+        ["id=order_now", "id"],
+        ["linkText=Order Now", "linkText"],
+        ["css=#order_now", "css:finder"],
+        ["xpath=//a[contains(text(),'Order Now')]", "xpath:link"],
+        ["xpath=//a[@id='order_now']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/header/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buy')]", "xpath:href"],
+        ["xpath=//header/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Order Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d35c80a-a137-4135-a8ed-46e996b0340e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/second-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c30022ee-45d5-41e0-8084-2b3faec930bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-card__item:nth-child(1) > label",
+      "targets": [
+        ["css=.button-card__item:nth-child(2) > label", "css:finder"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'No, thanks. I’ll order filters manually.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89b67db2-9d4d-4878-a0d2-1671d5a120ae",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.bottom-info__text > span:nth-child(1)",
+      "targets": [
+        ["css=.bottom-info__text > span:nth-child(1)", "css:finder"],
+        ["xpath=//p/span", "xpath:position"]
+      ],
+      "value": "Yay! Welcome to the club 🙌"
+    }, {
+      "id": "a152e214-ea8c-4237-8bef-114acbf985ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-card__item:nth-child(2) > label",
+      "targets": [
+        ["css=.button-card__item:nth-child(2) > label", "css:finder"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'No, thanks. I’ll order filters manually.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d27c4be7-2e8d-4a0e-8c9b-091a8ae3acc3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.bottom-info__text > span:nth-child(2)",
+      "targets": [
+        ["css=.bottom-info__text > span:nth-child(2)", "css:finder"],
+        ["xpath=//p/span[2]", "xpath:position"]
+      ],
+      "value": "Are you sure? 🤔 Auto-Refill makes filter replacements a breeze and you can cancel any time. Plus, you'll get your first filter free."
+    }]
+  }, {
+    "id": "e206c48c-9bea-47de-9105-760b85033cae",
+    "name": "3rd_Step_helper_text_Colormix",
+    "commands": [{
+      "id": "090aab0d-6a3c-461b-8141-bc68cac10b3c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14ec1621-4089-4ffd-9be9-7ef5bb3eb22b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1648x819",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6d71701-af3c-42ef-8e84-f91d94940353",
+      "comment": "",
+      "command": "click",
+      "target": "id=order_now",
+      "targets": [
+        ["id=order_now", "id"],
+        ["linkText=Order Now", "linkText"],
+        ["css=#order_now", "css:finder"],
+        ["xpath=//a[contains(text(),'Order Now')]", "xpath:link"],
+        ["xpath=//a[@id='order_now']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/header/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buy')]", "xpath:href"],
+        ["xpath=//header/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Order Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e21a4e4a-7229-47b6-b412-321e674d339d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/second-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "356b159f-cc15-4ddb-989f-9857ca6fbc6a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,99)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a1772be-4bcd-4d28-be58-d1ada72204dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/color-mix')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92118d13-7adf-4afa-aff9-2cdf16527f90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.white_prod_add > .icon",
+      "targets": [
+        ["css=.white_prod_add > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a711a221-404f-42cb-bbb1-16ae9bc92163",
+      "comment": "",
+      "command": "click",
+      "target": "css=.white_prod_add > .icon",
+      "targets": [
+        ["css=.white_prod_add > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d90e2fd-9438-4c38-b169-58fc90647640",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.bottom-info__text",
+      "targets": [
+        ["css=.bottom-info__text", "css:finder"],
+        ["xpath=//div/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'You’ve got classic taste. Great choice.')]", "xpath:innerText"]
+      ],
+      "value": "You’ve got classic taste. Great choice."
+    }, {
+      "id": "50531312-a386-427c-bdd3-4b13702ea34a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.white_prod_remove use",
+      "targets": [
+        ["css=.white_prod_remove use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1ddde39-88b7-43a8-8190-340062e1ec8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.black_prod_add use",
+      "targets": [
+        ["css=.black_prod_add use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "421537b5-4f0e-4bb3-bf86-23a25f7dc742",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.bottom-info__text",
+      "targets": [
+        ["css=.bottom-info__text", "css:finder"],
+        ["xpath=//div/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Oooo, the black...you rebel, you.')]", "xpath:innerText"]
+      ],
+      "value": "Oooo, the black...you rebel, you."
+    }]
+  }, {
+    "id": "0a58f89d-b65e-4b75-b3c0-675ede8dae15",
+    "name": "4th_Step_helper_text_socks",
+    "commands": [{
+      "id": "c968c0ac-46ed-49c0-9fec-4fdffd63fc85",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d01fb97a-93c8-45ce-bd41-854bd65cace0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1648x819",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d72ce1bf-6da4-4b46-b3e4-5484e255d29d",
+      "comment": "",
+      "command": "click",
+      "target": "id=order_now",
+      "targets": [
+        ["id=order_now", "id"],
+        ["linkText=Order Now", "linkText"],
+        ["css=#order_now", "css:finder"],
+        ["xpath=//a[contains(text(),'Order Now')]", "xpath:link"],
+        ["xpath=//a[@id='order_now']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/header/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buy')]", "xpath:href"],
+        ["xpath=//header/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Order Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c023e745-433a-4301-929f-4e8c78eef708",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/second-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3f95d7b-31e3-4252-86c7-fc386293501a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/color-mix')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "143a6e5e-e256-46a4-938a-7bf717275edd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.black_prod_add use",
+      "targets": [
+        ["css=.black_prod_add use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa19768e-25d9-4f8b-9950-ff465f936df2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/third-step-white')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6362dad7-53ab-4281-8ef7-36f9924ef1d7",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.black_prod_add use",
+      "targets": [
+        ["css=.black_prod_add use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b87ae3dc-5a88-4b56-93d2-73772c625985",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fourth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12d8aad7-0c9a-4700-a2d1-66ef29abd092",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.card-block__item--basic-breather .product-quantity__item-add",
+      "targets": [
+        ["css=.card-block__item--basic-breather .product-quantity__item-add", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49d262e0-ce3e-4bc6-b409-eb7d547c3d1a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.step-navigation__next", "css:finder"],
+        ["xpath=//a[contains(text(),'Next')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://pre.milacares.com/buy/fourth-step')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dd46363-400f-45af-863b-8786641a158a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.bottom-info__text > span:nth-child(1)",
+      "targets": [
+        ["css=.bottom-info__text > span:nth-child(1)", "css:finder"],
+        ["xpath=//p/span", "xpath:position"]
+      ],
+      "value": "Great choice! I've added 1 pack (5 socks) to your order for $50."
+    }, {
+      "id": "3fec44c2-4d93-41b3-9a8c-9bef15b68d4d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label[contains(.,'No, thanks.')]",
+      "targets": [
+        ["css=.button-card__item:nth-child(2) > label", "css:finder"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'No, thanks.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "993703c3-bb03-4aeb-b886-55a2bf665303",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.bottom-info__text > span:nth-child(2)",
+      "targets": [
+        ["css=.bottom-info__text > span:nth-child(2)", "css:finder"],
+        ["xpath=//p/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Okay, you’re the boss!')]", "xpath:innerText"]
+      ],
+      "value": "Okay, you’re the boss!"
+    }]
+  }, {
+    "id": "b3317abc-47fb-4e62-b4c3-f207c91f41aa",
+    "name": "Milacares",
+    "commands": [{
+      "id": "d74f7608-a824-4b26-af41-eef055686cbb",
+      "comment": "",
+      "command": "open",
+      "target": "https://milacares.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00a62bfc-8ef1-4eaf-92d5-ccf602905d0b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x999",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "036571d8-ce7d-4d6d-a6c1-5ac04a432c80",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Performance",
+      "targets": [
+        ["linkText=Performance", "linkText"],
+        ["css=.primary-nav__item:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Performance')]", "xpath:link"],
+        ["xpath=//div[@id='root']/header/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/performance')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Performance')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7b6a4bd-3ae0-4ef8-abcf-07f0476eafd6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Filters",
+      "targets": [
+        ["linkText=Filters", "linkText"],
+        ["css=.primary-nav__item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Filters')]", "xpath:link"],
+        ["xpath=//div[@id='root']/header/div/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/filters')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Filters')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6961dd2b-11ed-4ab6-a387-f2434ea16d11",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Why Mila?",
+      "targets": [
+        ["linkText=Why Mila?", "linkText"],
+        ["css=.primary-nav__item:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Why Mila?')]", "xpath:link"],
+        ["xpath=//div[@id='root']/header/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/why-mila')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Why Mila?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e605432-46f5-46c2-980d-5e999feef40c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Story",
+      "targets": [
+        ["linkText=Our Story", "linkText"],
+        ["css=.primary-nav__item:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Story')]", "xpath:link"],
+        ["xpath=//div[@id='root']/header/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/our-story')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Story')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "553a5755-4db7-4b8a-9b4a-d843f1ad0842",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Reviews",
+      "targets": [
+        ["linkText=Reviews", "linkText"],
+        ["css=.primary-nav__item:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Reviews')]", "xpath:link"],
+        ["xpath=//div[@id='root']/header/div/nav/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/the-wall-of-love')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Reviews')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13d3fa0b-03fb-4aaf-b165-2b1b112cb362",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Overview",
+      "targets": [
+        ["linkText=Overview", "linkText"],
+        ["css=.primary-nav__item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Overview')]", "xpath:link"],
+        ["xpath=//div[@id='root']/header/div/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Overview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8a5f671-0315-4d89-961e-100c16991a5c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Play the film",
+      "targets": [
+        ["linkText=Play the film", "linkText"],
+        ["css=.btn--white:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Play the film')]", "xpath:link"],
+        ["xpath=//div[@id='root']/main/section[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://youtu.be/qf87O81GpOA')]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Play the film')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f863902-bcad-4eb4-a2f6-1d15b00c10f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancybox-button--close path",
+      "targets": [
+        ["css=.fancybox-button--close path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9495702-7fdf-4011-ad85-d03945adf944",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide-control75",
+      "targets": [
+        ["id=slick-slide-control75", "id"],
+        ["css=#slick-slide-control75", "css:finder"],
+        ["xpath=//button[@id='slick-slide-control75']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/section[3]/ul/li[6]/button", "xpath:idRelative"],
+        ["xpath=//li[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4baf9192-9cb8-48a0-b721-3cc123fceede",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide-control76",
+      "targets": [
+        ["id=slick-slide-control76", "id"],
+        ["css=#slick-slide-control76", "css:finder"],
+        ["xpath=//button[@id='slick-slide-control76']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/section[3]/ul/li[7]/button", "xpath:idRelative"],
+        ["xpath=//li[7]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'7')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50900676-c264-410b-af94-b5a2ab39975c",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide-control77",
+      "targets": [
+        ["id=slick-slide-control77", "id"],
+        ["css=#slick-slide-control77", "css:finder"],
+        ["xpath=//button[@id='slick-slide-control77']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/section[3]/ul/li[8]/button", "xpath:idRelative"],
+        ["xpath=//li[8]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'8')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "256985c4-3f95-464d-bcce-4982d2b95b23",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Learn More",
+      "targets": [
+        ["linkText=Learn More", "linkText"],
+        ["css=.btn--large:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn More')]", "xpath:link"],
+        ["xpath=//div[@id='root']/main/section[5]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/performance')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Learn More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7136064f-d67d-46bb-b0b1-e8fbf7fbb736",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Overview",
+      "targets": [
+        ["linkText=Overview", "linkText"],
+        ["css=.primary-nav__item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Overview')]", "xpath:link"],
+        ["xpath=//div[@id='root']/header/div/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Overview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ec804da-622b-42b8-876b-5f10a8d8f187",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-line-arrow > use",
+      "targets": [
+        ["css=.icon-line-arrow > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bff08c2e-d912-4011-9558-61da9d260d21",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Overview",
+      "targets": [
+        ["linkText=Overview", "linkText"],
+        ["css=.primary-nav__item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Overview')]", "xpath:link"],
+        ["xpath=//div[@id='root']/header/div/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Overview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e18fd2d-95e7-486c-9835-15803475e816",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-circle-right-arrow",
+      "targets": [
+        ["css=.icon-circle-right-arrow", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "942d3ffc-4fba-457c-9d1d-76f9aff13fec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-circle-right-arrow",
+      "targets": [
+        ["css=.icon-circle-right-arrow", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5938d1dc-27ee-479a-8520-0dfe90bf4ba6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-circle-right-arrow",
+      "targets": [
+        ["css=.icon-circle-right-arrow", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf49f61d-66a0-403a-a1ec-e8bbac3ec3a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.highlighted-block__item--basic-breather .btn",
+      "targets": [
+        ["css=.highlighted-block__item--basic-breather .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Learn More')])[6]", "xpath:link"],
+        ["xpath=//div[@id='root']/main/section[7]/div/div[3]/div/div/div[5]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/filters/basic-breather')]", "xpath:href"],
+        ["xpath=//div[5]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0925899-d26c-4442-90da-3fea8d282b43",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go back",
+      "targets": [
+        ["linkText=Go back", "linkText"],
+        ["css=.btn--outline", "css:finder"],
+        ["xpath=//a[contains(text(),'Go back')]", "xpath:link"],
+        ["xpath=//div[@id='basic-breather-modal']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/filters')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go back')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d22ab4e-d512-476b-9972-108e5852dba6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Overview",
+      "targets": [
+        ["linkText=Overview", "linkText"],
+        ["css=.primary-nav__item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Overview')]", "xpath:link"],
+        ["xpath=//div[@id='root']/header/div/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Overview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d9840ea-3241-4f66-acea-376baeb4735d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Read More Reviews",
+      "targets": [
+        ["linkText=Read More Reviews", "linkText"],
+        ["css=.btn--large:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Read More Reviews')]", "xpath:link"],
+        ["xpath=//div[@id='root']/main/section[8]/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/the-wall-of-love')])[2]", "xpath:href"],
+        ["xpath=//section[8]/div[2]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Read More Reviews')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc239dfb-ea18-4627-b534-2ad081f855a5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Overview",
+      "targets": [
+        ["linkText=Overview", "linkText"],
+        ["css=.primary-nav__item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Overview')]", "xpath:link"],
+        ["xpath=//div[@id='root']/header/div/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Overview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7d7f2f1-8334-4ff5-8d85-ff285f729020",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-block__list-item:nth-child(2) > .product-block__list-title > strong",
+      "targets": [
+        ["css=.product-block__list-item:nth-child(2) > .product-block__list-title > strong", "css:finder"],
+        ["xpath=//div[@id='root']/main/section[9]/div/div[2]/div/div[2]/h3/strong", "xpath:idRelative"],
+        ["xpath=//div[2]/h3/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'The One Bedroom')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2e79064-5935-4990-92e2-18091a94aebb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-block__list-item:nth-child(3) > .product-block__list-title",
+      "targets": [
+        ["css=.product-block__list-item:nth-child(3) > .product-block__list-title", "css:finder"],
+        ["xpath=//div[@id='root']/main/section[9]/div/div[2]/div/div[3]/h3", "xpath:idRelative"],
+        ["xpath=//div[3]/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e145ce0b-2b55-4785-8bcb-67cffb5826a5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download on App Store",
+      "targets": [
+        ["linkText=Download on App Store", "linkText"],
+        ["css=.btn--black", "css:finder"],
+        ["xpath=//a[contains(text(),'Download on App Store')]", "xpath:link"],
+        ["xpath=//div[@id='root']/main/section[10]/div/div[2]/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://apps.apple.com/ca/app/mila-air/id1520776049')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download on App Store')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4203",
+      "windowTimeout": 2000
+    }, {
+      "id": "e928b67f-2ddf-44d0-a4de-3834b6af0efd",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "854191d3-457a-474b-938c-ae775cf15136",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4203}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee163208-13e8-4a07-ba53-51affd3357fc",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8660dad3-1344-491b-b64d-8e4c918a33d9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get it on Google Play",
+      "targets": [
+        ["linkText=Get it on Google Play", "linkText"],
+        ["css=.btn--white:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Get it on Google Play')]", "xpath:link"],
+        ["xpath=//div[@id='root']/main/section[10]/div/div[2]/div[2]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://play.google.com/store/apps/details?id=com.mila.androidv2')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Get it on Google Play')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8071",
+      "windowTimeout": 2000
+    }, {
+      "id": "70270819-9023-4fc0-9e05-7c09c44a2357",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8071}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edac6d24-41a0-41a5-8bf4-17a3227c1be0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b748760-14a4-4b00-ae4a-dc5f89eda08f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93d6880b-90b7-4e4f-ad02-0348422e1cc1",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide-control61",
+      "targets": [
+        ["id=slick-slide-control61", "id"],
+        ["css=#slick-slide-control61", "css:finder"],
+        ["xpath=//button[@id='slick-slide-control61']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/section[11]/div[3]/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/ul/li[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2211923-e422-47c4-b2de-dc19799dc8eb",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide-control62",
+      "targets": [
+        ["id=slick-slide-control62", "id"],
+        ["css=#slick-slide-control62", "css:finder"],
+        ["xpath=//button[@id='slick-slide-control62']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/section[11]/div[3]/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/ul/li[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b08cc9a5-cdd8-48cf-9559-f87603c5f137",
+      "comment": "",
+      "command": "click",
+      "target": "css=.voice-block__logo-image:nth-child(1) .lazy",
+      "targets": [
+        ["css=.voice-block__logo-image:nth-child(1) .lazy", "css:finder"],
+        ["xpath=//img[@alt='alexa']", "xpath:img"],
+        ["xpath=(//img[@type='image/png'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/section[12]/div/div/div/figure/a/picture/img", "xpath:idRelative"],
+        ["xpath=//a/picture/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1971",
+      "windowTimeout": 2000
+    }, {
+      "id": "b7c4c31a-956c-4532-82b4-d22e6ff6d786",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1971}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd1d4d11-2cad-4386-928a-e5cab3e951e5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b50b90aa-3a9f-4e38-ae66-5d9ef8606b9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.voice-block__logo-image:nth-child(2) .lazy",
+      "targets": [
+        ["css=.voice-block__logo-image:nth-child(2) .lazy", "css:finder"],
+        ["xpath=//img[@alt='hey google']", "xpath:img"],
+        ["xpath=(//img[@type='image/png'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/section[12]/div/div/div/figure[2]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//figure[2]/a/picture/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4471",
+      "windowTimeout": 2000
+    }, {
+      "id": "a185b790-6d02-4a62-a512-2dd96ff9ffbd",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4471}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ed208d1-f576-4e6e-bc2d-0cc39af81e2f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6cf94a8-174e-4e8e-a492-d5eebc721020",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,16529)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae12029e-ce77-4392-b5d8-8f9b4bd8876a",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide101",
+      "targets": [
+        ["id=slick-slide101", "id"],
+        ["css=#slick-slide101", "css:finder"],
+        ["xpath=//div[@id='slick-slide101']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/section[13]/div/div[3]/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//section[13]/div/div[3]/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f65da9b4-2bdd-4ae4-a4a2-ee1d8dfa8225",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide102",
+      "targets": [
+        ["id=slick-slide102", "id"],
+        ["css=#slick-slide102", "css:finder"],
+        ["xpath=//div[@id='slick-slide102']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/section[13]/div/div[3]/div/div/div[4]", "xpath:idRelative"],
+        ["xpath=//section[13]/div/div[3]/div/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55046440-d779-4479-b2cc-245a80a3b483",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide103",
+      "targets": [
+        ["id=slick-slide103", "id"],
+        ["css=#slick-slide103", "css:finder"],
+        ["xpath=//div[@id='slick-slide103']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/section[13]/div/div[3]/div/div/div[5]", "xpath:idRelative"],
+        ["xpath=//section[13]/div/div[3]/div/div/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5590f69f-349b-4fa2-a71d-172882bfa5b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.about-block__slide:nth-child(6)",
+      "targets": [
+        ["css=.about-block__slide:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='root']/main/section[13]/div/div[3]/div/div/div[6]", "xpath:idRelative"],
+        ["xpath=//section[13]/div/div[3]/div/div/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "367f31e9-3974-4f3a-9273-c56c9172bc0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--order",
+      "targets": [
+        ["css=.btn--order", "css:finder"],
+        ["xpath=(//a[contains(text(),'Order Now')])[5]", "xpath:link"],
+        ["xpath=//div[@id='root']/main/section[15]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/buy')])[5]", "xpath:href"],
+        ["xpath=//section[15]/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dd415b6-4e9f-40e0-aca1-01d24cd2ae54",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "40a62865-bf5b-4f65-8ed3-59d4efb769d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.label-6AYOW",
+      "targets": [
+        ["css=.label-6AYOW", "css:finder"],
+        ["xpath=//div[@id='Embed']/div/div/button/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Help')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02d83188-1902-4187-a4ed-36e77c2a87f3",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9d7b3ea-76ac-4735-91dd-d6b09de5c180",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8c791f02-5f9e-4aa3-a09a-9ff650e3a3d9",
+    "name": "Cart_helper_text",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6320971a-07fa-476a-a031-04ebdb39fdd6", "b8f7e675-0883-4979-8418-326afff68765", "e206c48c-9bea-47de-9105-760b85033cae", "0a58f89d-b65e-4b75-b3c0-675ede8dae15"]
+  }, {
+    "id": "b5e756c6-685b-4b2c-8031-71781feaa81e",
+    "name": "Milacares",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://pre.milacares.com/", "https://dev.milacares.com/"],
+  "plugins": []
+}
