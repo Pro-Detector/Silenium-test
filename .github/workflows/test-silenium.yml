@@ -39,7 +39,7 @@ jobs:
     - name: Run Selenium Server
       run: java -jar selenium-server-standalone-3.141.59.jar
     - name: Run test 
-        selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome"  test.side
+      run: selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome"  test.side
         
 #        java -jar selenium-server-standalone-<version>.jar -Dwebdriver.chrome.driver=<path/to/chromedriver> 
 #        -enablePassThrough false -browser "browserName=chrome,chromeOptions={args: ['--headless', '--disable-gpu']}"
