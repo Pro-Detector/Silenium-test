@@ -38,7 +38,7 @@ jobs:
       uses: browser-actions/setup-chrome@v1  
     - name: Run Selenium IDE script
       run: | 
-        java -jar selenium-server-standalone-3.141.59.jar -browser "browserName=chrome,chromeOptions={args: ['--headless', '--disable-gpu']" &
+        java -jar selenium-server-standalone-3.141.59.jar -browser "browserName=chrome,chromeOptions={args: ['--headless', '--disable-gpu', '--disable-dev-shm-usage']" &
         selenium-side-runner -c "browserName=chrome"  Pre_Mila.side
         
 #        java -jar selenium-server-standalone-<version>.jar -Dwebdriver.chrome.driver=<path/to/chromedriver> 
