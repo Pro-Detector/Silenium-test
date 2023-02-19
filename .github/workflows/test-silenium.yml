@@ -28,7 +28,7 @@ jobs:
       run: |
         wget https://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar 
     - name: Install Nodejs
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v2
       with:
         node-version: 18
     - run: | 
@@ -41,6 +41,5 @@ jobs:
     - name: Run test 
       run: selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome"  Pre_Mila.side
         
-#        java -jar selenium-server-standalone-<version>.jar -Dwebdriver.chrome.driver=<path/to/chromedriver> 
-#        -enablePassThrough false -browser "browserName=chrome,chromeOptions={args: ['--headless', '--disable-gpu']}"
+
 
