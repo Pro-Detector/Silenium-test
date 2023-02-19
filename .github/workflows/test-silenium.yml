@@ -36,10 +36,10 @@ jobs:
        npm install -g chromedriver   
     - name: Install Google-Chrome
       uses: browser-actions/setup-chrome@v1  
-    - name: Run Selenium IDE script
-      run: | 
-        java -jar selenium-server-standalone-3.141.59.jar 
-        selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome"  Pre_Mila.side
+    - name: Run Selenium Server
+      run: java -jar selenium-server-standalone-3.141.59.jar
+    - name: Run test 
+        selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome"  test.side
         
 #        java -jar selenium-server-standalone-<version>.jar -Dwebdriver.chrome.driver=<path/to/chromedriver> 
 #        -enablePassThrough false -browser "browserName=chrome,chromeOptions={args: ['--headless', '--disable-gpu']}"
