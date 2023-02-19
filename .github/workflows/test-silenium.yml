@@ -36,6 +36,6 @@ jobs:
        npm install -g chromedriver   
     - name: Run Selenium IDE script
       run: |
-        java -jar selenium-server-standalone-3.141.59.jar -Dwebdriver.chrome.driver=./chromedriver -port 4545 &
+        java -jar selenium-server-standalone-3.141.59.jar -Dwebdriver.chrome.driver=./chromedriver &
         selenium-side-runner -c "browserName=chrome" Pre_Mila.side
 
