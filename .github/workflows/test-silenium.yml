@@ -39,5 +39,5 @@ jobs:
     - name: Run Selenium IDE script
       run: |
         java -jar selenium-server-standalone-3.141.59.jar -Dwebdriver.chrome.driver=./chromedriver &
-        selenium-side-runner -c "browserName=chrome" Pre_Mila.side
+        selenium-side-runner -c "goog:chromeOptions.args=[disable-dev-shm-usage]"  Pre_Mila.side
 
